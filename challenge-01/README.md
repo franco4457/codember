@@ -26,3 +26,10 @@ El resultado será una cadena de texto con la palabra y el número de veces que 
 
 2.  Envía tu solución con el comando "submit" en la terminal de la plataforma, por ejemplo así:
     submit perro3gato3coche1sol1
+
+## Soluciones
+
+|  Lenguaje  |             Solición              |
+| :--------: | :-------------------------------: |
+| JavaScript | [Solución](./javascript/index.js) |
+| TypeScript | [Solución](./typescript/index.ts) |
