@@ -1,0 +1,17 @@
+{
+  "name": "typescript-challengue-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup index.ts ",
+    "dev": "tsup index.ts --watch --onSuccess \"node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "https://github.com/franco4457",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
