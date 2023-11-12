@@ -4,14 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup index.ts ",
-    "dev": "tsup index.ts --watch --onSuccess \"node dist/index.js\""
+    "build": "tsup",
+    "dev": "tsup --watch --onSuccess \"node dist/index.js\""
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "challengue",
+    "codember"
+  ],
   "author": "https://github.com/franco4457",
   "license": "ISC",
   "devDependencies": {
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
+  },
+  "tsup": {
+    "entry": [
+      "index.ts"
+    ]
   }
 }
