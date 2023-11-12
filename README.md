@@ -13,3 +13,4 @@ Codember es una evento desarollado por [@midudev](https://github.com/midudev) en
 | N°  |         Reto         |            Despcrición             |
 | :-: | :------------------: | :--------------------------------: |
 | #01 | Mensajes Encriptados | [Readme](./challenge-01/README.md) |
+| #02 |    Mini Compiler     | [Readme](./challenge-02/README.md) |

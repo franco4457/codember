@@ -4,7 +4,7 @@
 
 _Tu tarea es crear un mini compilador que interprete y ejecute programas escritos en este lenguaje de símbolos._
 
-### Las operaciones del lenguaje son las siguientes:
+## Las operaciones del lenguaje son las siguientes:
 
 - **`"#"`** > Incrementa el valor numérico en 1.
 - **`"@"`** > Decrementa el valor numérico en 1.
@@ -13,7 +13,7 @@ _Tu tarea es crear un mini compilador que interprete y ejecute programas escrito
 
 > El valor numérico inicial es 0 y las operaciones deben aplicarse en elorden en que aparecen en la cadena de símbolos.
 
-### Ejemplos de entrada:
+## Ejemplos de entrada:
 
 - **Entrada:** `"##\*&"`
 
@@ -24,11 +24,11 @@ _Tu tarea es crear un mini compilador que interprete y ejecute programas escrito
   - **Salida esperada:** `"0243"`
     > **Explicación:** Imprime (0), incrementa (1), incrementa (2), imprime (2), multiplica (4), imprime (4), decrementa (3), imprime (3).
 
-### Tu desafío:
+## Tu desafío:
 
 Desarrolla un mini compilador que tome una cadena de texto y devuelva otra cadena de texto con el resultado de ejecutar el programa.
 
-### Cómo resolverlo
+## Cómo resolverlo
 
 1. Resuelve el mensaje que encontrarás en este archivo: [message_02.txt](./data.json)
 
@@ -36,3 +36,10 @@ Desarrolla un mini compilador que tome una cadena de texto y devuelva otra caden
    ```
    submit 024899488
    ```
+
+## Soluciones
+
+|  Lenguaje  |             Solición              |
+| :--------: | :-------------------------------: |
+| JavaScript | [Solución](./javascript/index.js) |
+| TypeScript | [Solución](./typescript/index.ts) |
