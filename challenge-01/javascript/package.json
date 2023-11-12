@@ -1,17 +1,14 @@
 {
-  "name": "javascript-01",
+  "name": "javascript-challenge-01",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "node --watch index.js"
   },
   "keywords": [],
   "author": "https://github.com/franco4457",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  }
+  "license": "ISC"
 }

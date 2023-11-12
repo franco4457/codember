@@ -1,8 +1,5 @@
 import { createRequire } from 'node:module'
-
-const require = createRequire(import.meta.url)
-
-const { data } = require('../data.json')
+const { data } = createRequire(import.meta.url)('../data.json')
 
 export function decript(message) {
   const arrMsg = message.split(' ')
