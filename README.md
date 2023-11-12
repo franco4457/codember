@@ -14,3 +14,14 @@ Codember es una evento desarollado por [@midudev](https://github.com/midudev) en
 | :-: | :------------------: | :--------------------------------: |
 | #01 | Mensajes Encriptados | [Readme](./challenge-01/README.md) |
 | #02 |    Mini Compiler     | [Readme](./challenge-02/README.md) |
+
+## Secretos
+
+| N°  |       Tips       |
+| :-: | :--------------: |
+| #01 |      KONAMI      |
+| #02 |  Tienes un mail  |
+| #03 | Imagen blureada  |
+| #04 |  Festeja mucho   |
+| #5  | Tienes otro mail |
+| #6  |  Palabra mágica  |
