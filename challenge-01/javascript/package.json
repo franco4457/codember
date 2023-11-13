@@ -6,9 +6,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "test": "vitest"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "challengue",
+    "codember"
+  ],
   "author": "https://github.com/franco4457",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  }
 }
