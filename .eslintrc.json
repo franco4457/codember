@@ -11,21 +11,5 @@
   },
   "rules": {
     "space-before-function-paren": "off"
-  },
-  "overrides": [
-    {
-      "files": ["*.ts"],
-      "rules": {
-        "space-before-function-paren": "off"
-      },
-      "extends": ["eslint:recommended", "standard-with-typescript"]
-    },
-    {
-      "files": ["*.js"],
-      "rules": {
-        "space-before-function-paren": "off"
-      },
-      "extends": ["eslint:recommended", "standard"]
-    }
-  ]
+  }
 }
