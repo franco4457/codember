@@ -6,7 +6,7 @@ export function decript(message) {
   const msgDic = {}
   arrMsg.forEach((word) => {
     word = word.toLowerCase()
-    msgDic.hasOwnProperty(word) ? msgDic[word]++ : (msgDic[word] = 1)
+    Object.prototype.hasOwnProperty.call(msgDic, word) ? msgDic[word]++ : (msgDic[word] = 1)
   })
   const entries = Object.entries(msgDic)
   return entries.flat(2).join('')

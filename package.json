@@ -1,0 +1,28 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "description": "Codember challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franco4457/codember.git"
+  },
+  "author": "https://github.com/franco4457",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franco4457/codember/issues"
+  },
+  "homepage": "https://github.com/franco4457/codember#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^39.1.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "^5.2.2"
+  }
+}
