@@ -12,4 +12,13 @@ export function decript(message) {
   return entries.flat(2).join('')
 }
 
+export function decript2(message) {
+  const arrMsg = message.split(' ')
+  return arrMsg.reduce((acc, word) => {
+    if (!acc[word]) acc[word] = 0
+    acc[word]++
+    return acc
+  }, {})
+}
+
 console.log(decript(data))
