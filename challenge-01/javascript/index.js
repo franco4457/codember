@@ -24,7 +24,7 @@ export function decript3(message) {
   const wordsMap = new Map()
   arrMsg.forEach((word) => {
     word = word.toLowerCase()
-    wordsMap.set(word, wordsMap.has(word) ? wordsMap.get(word) + 1 : 1)
+    wordsMap.set(word, (wordsMap.get(word) || 0) + 1)
   })
   let result = ''
   for (const [key, value] of wordsMap) {
