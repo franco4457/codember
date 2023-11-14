@@ -13,12 +13,13 @@ export function decript(message) {
 }
 
 export function decript2(message) {
-  const arrMsg = message.split(' ')
-  return arrMsg.reduce((acc, word) => {
+  const diccMsg = message.split(' ').reduce((acc, word) => {
+    word = word.toLowerCase()
     if (!acc[word]) acc[word] = 0
     acc[word]++
     return acc
   }, {})
+  return Object.entries(diccMsg).flat(2).join('')
 }
 
 console.log(decript(data))
