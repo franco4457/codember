@@ -1,6 +1,3 @@
-import { createRequire } from 'node:module'
-const { data } = createRequire(import.meta.url)('../data.json')
-
 export function decript(message) {
   const arrMsg = message.split(' ')
   const msgDic = {}
@@ -35,5 +32,3 @@ export function decript3(message) {
   }
   return result
 }
-
-console.log(decript(data))
