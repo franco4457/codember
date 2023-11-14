@@ -22,4 +22,18 @@ export function decript2(message) {
   return Object.entries(diccMsg).flat(2).join('')
 }
 
+export function decript3(message) {
+  const arrMsg = message.split(' ')
+  const wordsMap = new Map()
+  arrMsg.forEach((word) => {
+    word = word.toLowerCase()
+    wordsMap.set(word, wordsMap.has(word) ? wordsMap.get(word) + 1 : 1)
+  })
+  let result = ''
+  for (const [key, value] of wordsMap) {
+    result += key + value
+  }
+  return result
+}
+
 console.log(decript(data))
