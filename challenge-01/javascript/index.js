@@ -32,3 +32,14 @@ export function decript3(message) {
   }
   return result
 }
+
+export function decript4(message) {
+  const setMsg = new Set(message.toLowerCase().split(' '))
+  let res = ''
+  for (const word of setMsg) {
+    const regex = new RegExp(`\\b${word}\\b`, 'gi')
+    const count = ` ${message} `.match(regex).length
+    res += word + count
+  }
+  return res
+}
