@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Codember challenges",
   "main": "index.js",
+  "workspaces": [
+    "**/javascript",
+    "**/typescript"
+  ],
   "scripts": {
     "test": "vitest"
   },
@@ -23,6 +27,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
   }
 }

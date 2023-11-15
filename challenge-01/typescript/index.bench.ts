@@ -5,7 +5,7 @@ const msg = 'llaveS casa CASA casa llaves'
 bench('Solution 01', () => {
   decript(msg)
 })
-bench.only('Solution 02', () => {
+bench('Solution 02', () => {
   decript2(msg)
 })
 bench('Solution 03', () => {
