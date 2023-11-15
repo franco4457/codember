@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch --onSuccess \"node dist/index.js\""
+    "dev": "tsup --watch --onSuccess \"node dist/solution.js\""
   },
   "keywords": [
     "typescript",
@@ -19,8 +19,9 @@
     "typescript": "^5.2.2"
   },
   "tsup": {
+    "clean": true,
     "entry": [
-      "index.ts"
+      "solution.ts"
     ]
   }
 }
