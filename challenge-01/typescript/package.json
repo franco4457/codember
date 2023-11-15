@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup",
+    "test": "vitest",
     "dev": "tsup --watch --onSuccess \"node dist/solution.js\""
   },
   "keywords": [
@@ -16,7 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
   },
   "tsup": {
     "clean": true,
