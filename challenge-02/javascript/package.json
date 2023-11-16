@@ -7,6 +7,7 @@
   "scripts": {
     "start": "node solution.js",
     "test": "vitest",
+    "bench": "vitest bench",
     "dev": "node --watch solution.js"
   },
   "keywords": [],
