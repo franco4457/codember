@@ -1,5 +1,3 @@
-import { data } from '../data.json'
-
 enum Operations {
   add = '#',
   sub = '@',
@@ -7,7 +5,7 @@ enum Operations {
   print = '&'
 }
 
-function decript(input: string): string {
+export function decript(input: string): string {
   let result: string = ''
   let current: number = 0
   input.split('').forEach((char) => {
@@ -18,5 +16,3 @@ function decript(input: string): string {
   })
   return result
 }
-
-console.log(decript(data))

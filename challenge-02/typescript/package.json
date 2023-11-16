@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch --onSuccess \"node dist/index.js\""
+    "dev": "tsup --watch --onSuccess \"node dist/solution.js\""
   },
   "keywords": [
     "typescript",
@@ -20,7 +20,7 @@
   },
   "tsup": {
     "entry": [
-      "index.ts"
+      "solution.ts"
     ]
   }
 }
