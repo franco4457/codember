@@ -1,5 +1,5 @@
 import { bench } from 'vitest'
-import { compiler, compiler2, compiler3, compiler4 } from '.'
+import { compiler, compiler2, compiler3, compiler4, compiler5 } from '.'
 
 const input = '&##&*&@&'
 bench('Solution 01', () => {
@@ -13,4 +13,7 @@ bench('Solution 03', () => {
 })
 bench('Solution 04', () => {
   compiler4(input)
+})
+bench('Solution 05', () => {
+  compiler5(input)
 })
