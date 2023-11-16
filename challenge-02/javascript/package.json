@@ -5,8 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js"
+    "start": "node solution.js",
+    "dev": "node --watch solution.js"
   },
   "keywords": [],
   "author": "https://github.com/franco4457",

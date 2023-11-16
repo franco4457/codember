@@ -1,6 +1,3 @@
-import { createRequire } from 'node:module'
-const { data } = createRequire(import.meta.url)('../data.json')
-
 export function compiler(input) {
   let curr = ''
   let count = 0
@@ -12,5 +9,3 @@ export function compiler(input) {
   })
   return curr
 }
-
-console.log(compiler(data))
