@@ -65,3 +65,12 @@ export function compiler4(input) {
   }, 0)
   return res
 }
+
+export function compiler5(input, curr = 0, res = '') {
+  if (!input.length) return res
+  if (input[0] === '&') return compiler5(input.slice(1), curr, res + curr)
+  if (input[0] === '#') return compiler5(input.slice(1), curr + 1, res)
+  if (input[0] === '@') return compiler5(input.slice(1), curr - 1, res)
+  if (input[0] === '*') return compiler5(input.slice(1), curr * curr, res)
+  return compiler5(input.slice(1), curr, res)
+}
