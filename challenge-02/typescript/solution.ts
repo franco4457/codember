@@ -1,4 +1,4 @@
-import { compiler } from '.'
+import { compiler3 } from '.'
 import { data } from '../data.json'
 
-console.log(compiler(data))
+console.log(compiler3(data))
