@@ -1,5 +1,5 @@
 import { createRequire } from 'node:module'
-import { compiler } from './index.js'
+import { compiler2 } from './index.js'
 const { data } = createRequire(import.meta.url)('../data.json')
 
-console.log(compiler(data))
+console.log(compiler2(data))
