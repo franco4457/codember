@@ -1,4 +1,4 @@
-import { decript } from '.'
+import { compiler } from '.'
 import { data } from '../data.json'
 
-console.log(decript(data))
+console.log(compiler(data))

@@ -5,7 +5,7 @@ enum Operations {
   print = '&'
 }
 
-export function decript(input: string): string {
+export function compiler(input: string): string {
   let result: string = ''
   let current: number = 0
   input.split('').forEach((char) => {
