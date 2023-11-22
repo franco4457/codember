@@ -1,0 +1,14 @@
+{
+  "name": "javascript-challenge-03",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node solution.js",
+    "dev": "node --watch solution.js"
+  },
+  "keywords": [],
+  "author": "https://github.com/franco4457",
+  "license": "ISC"
+}
