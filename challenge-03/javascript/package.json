@@ -6,9 +6,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node solution.js",
-    "dev": "node --watch solution.js"
+    "dev": "node --watch solution.js",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "https://github.com/franco4457",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  }
 }

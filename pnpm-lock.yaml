@@ -69,6 +69,12 @@ importers:
         specifier: ^0.34.6
         version: 0.34.6
 
+  challenge-03/javascript:
+    devDependencies:
+      vitest:
+        specifier: ^0.34.6
+        version: 0.34.6
+
 packages:
 
   /@aashutoshrathi/word-wrap@1.2.6:
