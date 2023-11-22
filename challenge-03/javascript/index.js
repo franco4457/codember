@@ -1,4 +1,4 @@
-export function decoder(passLists) {
+export function decoder(passLists, idxPass) {
   const listArr = passLists.split('\n')
   const invalids = []
   listArr.forEach((item) => {
@@ -12,5 +12,5 @@ export function decoder(passLists) {
     })
     if (count < min || count > max) invalids.push(pass)
   })
-  return invalids.at(41)
+  return invalids.at(idxPass)
 }
