@@ -2,7 +2,7 @@ import { data, solution } from '../data.json'
 import { decoder, decoder2, decoder3 } from '.'
 
 describe('Challenge 03 - JavaScript', () => {
-  it.only('Example - 01', () => {
+  it('Example - 01', () => {
     const list = `2-4 f: fgfff\n4-6 z: zzzsg\n1-6 h: hhhhhh`
     expect(decoder(list, 0)).toBe('zzzsg')
     expect(decoder2(list, 0)).toBe('zzzsg')
