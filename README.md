@@ -18,11 +18,14 @@ Codember es una evento desarollado por [@midudev](https://github.com/midudev) en
 
 ## Secretos
 
-| N°  |       Tips       |
-| :-: | :--------------: |
-| #01 |      KONAMI      |
-| #02 |  Tienes un mail  |
-| #03 | Imagen blureada  |
-| #04 |  Festeja mucho   |
-| #5  | Tienes otro mail |
-| #6  |  Palabra mágica  |
+| N°  |        Tips         |
+| :-: | :-----------------: |
+| #01 |      KONAMI 🎮      |
+| #02 |  Tienes un mail 📧  |
+| #03 | Imagen blureada ⚠️  |
+| #04 |  Festeja mucho 🎉   |
+| #5  | Tienes otro mail 📧 |
+| #6  |  Palabra mágica 🪄  |
+| #7  |  Giro de Barril 🛢️  |
+| #8  |  Misión a Marte 👽  |
+| #9  |      OpenIA 🤖      |
