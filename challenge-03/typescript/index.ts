@@ -69,3 +69,80 @@ export function decoder3(passLists: string, idxPass: number): string | undefined
   }
   return undefined
 }
+
+export const decoder4 = (initialPassLists: string, idxPass: number): string | undefined => {
+  const recursiveCoder = (
+    passLists: string,
+    {
+      count,
+      min,
+      max,
+      key,
+      pass,
+      invalids = []
+    }: {
+      count: number
+      min: string
+      max: string | null
+      key: string | null
+      pass: string | null
+      invalids?: string[]
+    }
+  ): string | undefined => {
+    if (passLists.length === 0) return invalids.at(idxPass)
+    const currentChar = passLists[0]
+
+    if (currentChar === '\n') {
+      if (count < Number(min) || count > Number(max)) {
+        invalids = [...invalids, pass ?? '']
+        if (invalids.at(idxPass)) return invalids?.at(idxPass)
+      }
+      count = 0
+      min = ''
+      max = null
+      key = null
+      pass = null
+      return recursiveCoder(passLists.slice(1), { count, min, max, key, pass, invalids })
+    }
+    if (currentChar === ':') {
+      return recursiveCoder(passLists.slice(1), { count, min, max, key, pass, invalids })
+    }
+    if (currentChar === '-') {
+      return recursiveCoder(passLists.slice(1), { count, min, max: '-', key, pass, invalids })
+    }
+    if (max === '-') {
+      return recursiveCoder(passLists.slice(1), {
+        count,
+        min,
+        max: currentChar,
+        key,
+        pass,
+        invalids
+      })
+    }
+    if (!isNaN(+currentChar) && key == null) {
+      if (max == null) min += currentChar
+      else max.concat(currentChar)
+      return recursiveCoder(passLists.slice(1), { count, min, max, key, pass, invalids })
+    }
+    if (isNaN(+currentChar) && key == null) {
+      return recursiveCoder(passLists.slice(1), {
+        count,
+        min,
+        max,
+        key: currentChar,
+        pass,
+        invalids
+      })
+    }
+    if (key === currentChar) {
+      count++
+    }
+    if (key != null && currentChar != ' ') {
+      pass == null ? (pass = currentChar) : (pass += currentChar)
+    }
+    return recursiveCoder(passLists.slice(1), { count, min, max, key, pass, invalids })
+  }
+
+  return recursiveCoder(initialPassLists, { count: 0, min: '', max: null, key: null, pass: null })
+}
