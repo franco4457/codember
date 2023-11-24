@@ -29,7 +29,7 @@ El resultado será una cadena de texto con la palabra y el número de veces que 
 
 ## Soluciones
 
-|  Lenguaje  |             Solición              |
+|  Lenguaje  |             Solución              |
 | :--------: | :-------------------------------: |
 | JavaScript | [Solución](./javascript/index.js) |
 | TypeScript | [Solución](./typescript/index.ts) |

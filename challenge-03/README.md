@@ -33,3 +33,10 @@ Determina cuántas claves de cifrado son válidas según sus políticas.
     ```bash
     submit bqamidgewtbuz
     ```
+
+## Soluciones
+
+| Lenguaje   | Solución                                |
+| ---------- | --------------------------------------- |
+| Javascript | [solution.js](./javascript/solution.js) |
+| Typescript | [solution.ts](./typescript/solution.ts) |

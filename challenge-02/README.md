@@ -39,7 +39,7 @@ Desarrolla un mini compilador que tome una cadena de texto y devuelva otra caden
 
 ## Soluciones
 
-|  Lenguaje  |             Solición              |
+|  Lenguaje  |             Solución              |
 | :--------: | :-------------------------------: |
 | JavaScript | [Solución](./javascript/index.js) |
 | TypeScript | [Solución](./typescript/index.ts) |
