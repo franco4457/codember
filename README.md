@@ -29,3 +29,4 @@ Codember es una evento desarollado por [@midudev](https://github.com/midudev) en
 | #7  |  Giro de Barril 🛢️  |
 | #8  |  Misión a Marte 👽  |
 | #9  |      OpenIA 🤖      |
+| #10 |  Vaca que Habla 🐮  |
