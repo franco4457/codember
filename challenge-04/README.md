@@ -1,6 +1,6 @@
 # Hackers dañan sistema de archivos
 
-#### En un mundo donde la información es poder, un hacker conocido como Savipo Yatar descubre una serie de archivos en un servidor altamente protegido.
+#### En un mundo donde la información es poder, un hacker conocido como _`Savipo Yatar`_ descubre una serie de archivos en un servidor altamente protegido.
 
 **Estos archivos contienen secretos que podrían cambiar el curso de la historia. Pero hay un problema: algunos de los archivos son falsos, diseñados para engañar a los intrusos. _`Savipo Yatar`_ debe determinar rápidamente cuáles archivos son reales y cuáles son falsos.**
 
@@ -31,3 +31,10 @@ _Cada línea indica el nombre del archivo y su correspondiente **`checksum`**, s
    ```bash
    submit xy
    ```
+
+## Soluciones
+
+| Lenguaje   | Solución                                |
+| ---------- | --------------------------------------- |
+| Javascript | [solution.js](./javascript/solution.js) |
+| Typescript | [solution.ts](./typescript/solution.ts) |
