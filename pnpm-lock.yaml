@@ -93,6 +93,15 @@ importers:
         specifier: ^0.34.6
         version: 0.34.6
 
+  challenge-04/typescript:
+    devDependencies:
+      tsup:
+        specifier: ^7.2.0
+        version: 7.2.0(typescript@5.2.2)
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
 packages:
 
   /@aashutoshrathi/word-wrap@1.2.6:
