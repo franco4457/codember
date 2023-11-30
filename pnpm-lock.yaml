@@ -105,6 +105,8 @@ importers:
         specifier: ^0.34.6
         version: 0.34.6
 
+  challenge-05/javascript: {}
+
 packages:
 
   /@aashutoshrathi/word-wrap@1.2.6:
