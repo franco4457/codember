@@ -1,0 +1,26 @@
+{
+  "name": "typescript-challengue-05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch --onSuccess \"node dist/solution.js\""
+  },
+  "keywords": [
+    "typescript",
+    "challengue",
+    "codember"
+  ],
+  "author": "https://github.com/franco4457",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "tsup": {
+    "entry": [
+      "solution.ts"
+    ]
+  }
+}
