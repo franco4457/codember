@@ -105,7 +105,11 @@ importers:
         specifier: ^0.34.6
         version: 0.34.6
 
-  challenge-05/javascript: {}
+  challenge-05/javascript:
+    devDependencies:
+      vitest:
+        specifier: ^0.34.6
+        version: 0.34.6
 
 packages:
 
