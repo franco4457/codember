@@ -1,5 +1,5 @@
 import { data, solution } from '../data.json'
-import { validateUsers } from './index'
+import { validateUsers, validateUsers2, validateUsers3 } from './index.js'
 
 describe('Challenge 05 - JavaScript', () => {
   it('Example - 01', () => {
@@ -10,6 +10,8 @@ describe('Challenge 05 - JavaScript', () => {
       '494ee0,madeval,twitch.tv,22,Montevideo'
     ]
     expect(validateUsers(sheet)).toBe('mm')
+    expect(validateUsers2(sheet)).toBe('mm')
+    expect(validateUsers3(sheet)).toBe('mm')
   })
   it('Example - 02', () => {
     const sheet = [
@@ -19,9 +21,13 @@ describe('Challenge 05 - JavaScript', () => {
       'FQeos5,aMlzfe,amlzfe@gmail.com,lala,Berlin'
     ]
     expect(validateUsers(sheet)).toEqual('yda')
+    expect(validateUsers2(sheet)).toEqual('yda')
+    expect(validateUsers3(sheet)).toEqual('yda')
   })
   it('CHALLENGE', () => {
     const dataToArray = data.split('\n')
     expect(validateUsers(dataToArray)).toBe(solution)
+    expect(validateUsers2(dataToArray)).toBe(solution)
+    expect(validateUsers3(dataToArray)).toBe(solution)
   })
 })
