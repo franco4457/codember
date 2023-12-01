@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup",
+    "bench": "vitest bench",
     "test": "vitest",
     "dev": "tsup --watch --onSuccess \"node dist/solution.js\""
   },
