@@ -1,6 +1,6 @@
 # [CODEMBER](https://codember.dev/)
 
-![CODEMBER](./images/codember.webp)
+![CODEMBER](../images/codember.webp)
 
 ###
 
