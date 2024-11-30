@@ -4,7 +4,18 @@ export function countSteps(data: string) {
     lastAcc = 0
   instructions.forEach((instruction, index) => {
     const steps = instruction.split(' ')
-    steps.forEach((step, i) => {})
+    lastAcc = 0
+    let i = 0
+    while (true) {
+      const step = Number(steps[i])
+      steps[i] = `${step + 1}`
+      if (isNaN(step)) {
+        accumulator += lastAcc
+        break
+      }
+      lastAcc++
+      i = i + step
+    }
   })
-  return instructions
+  return `${accumulator}-${lastAcc}`
 }
